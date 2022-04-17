@@ -1,0 +1,37 @@
+name: Update S&P500 Symbol List
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  update_symbol_list:
+    name: Update S&P500 symbol list periodically
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.7'
+          cache: 'pip'
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Script
+        env:
+          MONGODB_CONNECTION_STRING: ${{ secrets.MONGODB_CONNECTION_STRING }}
+        run: |
+          python automate_web_scraping.py
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add S&P500_symbol_list.csv
+          git commit -m "Updated symbol list on `date` with GitHub Actions" || echo "No Changes to Commit"
+          git push origin master || echo "No Changes to Commit"
