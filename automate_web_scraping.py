@@ -9,7 +9,7 @@ payload = pd.read_html(url)
 symbol_list = payload[0]
 
 # save to local csv file
-symbol_list.to_csv('S&P500_symbol_list.csv', index=False)
+symbol_list.to_csv('SAP500_symbol_list.csv', index=False)
 
 # push symbol list to MongoDB
 # establish a client connection to MongoDB
