@@ -2,7 +2,7 @@ name: Update S&P500 Symbol List
 
 on:
   schedule:
-    - cron: '*/2 * * * *'
+    - cron: '0 0 1 * *'
   workflow_dispatch:
 
 jobs:
