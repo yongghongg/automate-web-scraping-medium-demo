@@ -57,7 +57,7 @@ AZO,AutoZone,reports,Consumer Discretionary,Specialty Stores,"Memphis, Tennessee
 AVB,AvalonBay Communities,reports,Real Estate,Residential REITs,"Arlington, Virginia[3]",2007-01-10,915912,1978
 AVY,Avery Dennison,reports,Materials,Paper Packaging,"Glendale, California",1987-12-31,8818,1990
 BKR,Baker Hughes,reports,Energy,Oil & Gas Equipment & Services,"Houston, Texas",2017-07-07,1701605,2017
-BLL,Ball,reports,Materials,Metal & Glass Containers,"Broomfield, Colorado",1984-10-31,9389,1880
+BALL,Ball,reports,Materials,Metal & Glass Containers,"Broomfield, Colorado",1984-10-31,9389,1880
 BAC,Bank of America,reports,Financials,Diversified Banks,"Charlotte, North Carolina",1976-06-30,70858,1998 (1923 / 1874)
 BBWI,Bath & Body Works,reports,Consumer Discretionary,Specialty Stores,"Columbus, Ohio",1983-09-30,701985,1963
 BAX,Baxter,reports,Health Care,Health Care Equipment,"Deerfield, Illinois",1972-09-30,10456,1931
@@ -286,7 +286,7 @@ LDOS,Leidos,reports,Industrials,Diversified Support Services,"Reston, Virginia",
 LEN,Lennar,reports,Consumer Discretionary,Homebuilding,"Miami, Florida",2005-10-04,920760,1954
 LLY,Lilly,reports,Health Care,Pharmaceuticals,"Indianapolis, Indiana",1970-12-31,59478,1876
 LNC,Lincoln Financial,reports,Financials,Multi-line Insurance,"Radnor, Pennsylvania",1976-06-30,59558,1905
-LIN,Linde,reports,Materials,Industrial Gases,"Guildford, England",1992-07-01,1707925,1879
+LIN,Linde,reports,Materials,Industrial Gases,"Guildford, United Kingdom",1992-07-01,1707925,1879
 LYV,Live Nation Entertainment,reports,Communication Services,Movies & Entertainment,"Beverly Hills, California",2019-12-23,1335258,2010
 LKQ,LKQ Corporation,reports,Consumer Discretionary,Distributors,"Chicago, Illinois",2016-05-23,1065696,1998
 LMT,Lockheed Martin,reports,Industrials,Aerospace & Defense,"Bethesda, Maryland",1984-07-31,936468,1995
@@ -367,7 +367,7 @@ PAYX,Paychex,reports,Information Technology,Data Processing & Outsourced Service
 PAYC,Paycom,reports,Information Technology,Application Software,"Oklahoma City, Oklahoma",2020-01-28,1590955,1998
 PYPL,PayPal,reports,Information Technology,Data Processing & Outsourced Services,"San Jose, California",2015-07-20,1633917,1998
 PENN,Penn National Gaming,reports,Consumer Discretionary,Casinos & Gaming,"Wyomissing, Pennsylvania",2021-03-22,921738,1972
-PNR,Pentair,reports,Industrials,Industrial Machinery,"Worsley, England",2012-10-01,77360,1966
+PNR,Pentair,reports,Industrials,Industrial Machinery,"Worsley, United Kingdom",2012-10-01,77360,1966
 PEP,PepsiCo,reports,Consumer Staples,Soft Drinks,"Purchase, New York",1957-03-04,77476,1898
 PKI,PerkinElmer,reports,Health Care,Health Care Equipment,"Waltham, Massachusetts",1985-05-31,31791,1937
 PFE,Pfizer,reports,Health Care,Pharmaceuticals,"New York City, New York",1957-03-04,78003,1849
@@ -494,7 +494,7 @@ WRK,WestRock,reports,Materials,Paper Packaging,"Atlanta, Georgia",,1732845,2015
 WY,Weyerhaeuser,reports,Real Estate,Specialized REITs,"Seattle, Washington",,106535,1900
 WHR,Whirlpool,reports,Consumer Discretionary,Household Appliances,"Benton Harbor, Michigan",,106640,1911
 WMB,Williams,reports,Energy,Oil & Gas Storage & Transportation,"Tulsa, Oklahoma",1975-03-31,107263,1908
-WTW,Willis Towers Watson,reports,Financials,Insurance Brokers,"London, England",2016-01-05,1140536,2016
+WTW,Willis Towers Watson,reports,Financials,Insurance Brokers,"London, United Kingdom",2016-01-05,1140536,2016
 WYNN,Wynn Resorts,reports,Consumer Discretionary,Casinos & Gaming,"Paradise, Nevada",2008-11-14,1174922,2002
 XEL,Xcel Energy,reports,Utilities,Multi-Utilities,"Minneapolis, Minnesota",1957-03-04,72903,1909
 XYL,Xylem,reports,Industrials,Industrial Machinery,"White Plains, New York",2011-11-01,1524472,2011
